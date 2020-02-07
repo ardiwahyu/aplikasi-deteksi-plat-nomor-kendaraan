@@ -1,0 +1,47 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'AplikasiDeteksiPlat.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQXBsaWthc2lEZXRla3NpUGxhdC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5BcGxpa2FzaURldGVrc2lQbGF0PC90aXRsZT4NCiAgICA8dmVuZG9yPkFSREk8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgamF2YS12bS1hcmdzPSItRGphdmEubGlicmFyeS5wYXRoPSJDOlxvcGVuY3ZcYnVpbGRcamF2YVx4NjQiICIgIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkFwbGlrYXNpRGV0ZWtzaVBsYXQuamFyIiBzaXplPSI0NDU2NDciIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjaGFybS1nbGlzdGVuLTQuNC4xLmphciIgc2l6ZT0iMTA0MDc4NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9wZW5jdi00MDAuamFyIiBzaXplPSI0NjI3NTEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iQXBsaWthc2lEZXRla3NpUGxhdCIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImFwbGlrYXNpZGV0ZWtzaXBsYXQuQXBsaWthc2lEZXRla3NpUGxhdCIgIG5hbWU9IkFwbGlrYXNpRGV0ZWtzaVBsYXQiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.library.path="C:\opencv\build\java\x64" '
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedaplikasideteksiplat() {
+        dtjava.embed(
+            {
+                id : 'aplikasideteksiplat',
+                url : 'AplikasiDeteksiPlat.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQXBsaWthc2lEZXRla3NpUGxhdC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5BcGxpa2FzaURldGVrc2lQbGF0PC90aXRsZT4NCiAgICA8dmVuZG9yPkFSREk8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgamF2YS12bS1hcmdzPSItRGphdmEubGlicmFyeS5wYXRoPSJDOlxvcGVuY3ZcYnVpbGRcamF2YVx4NjQiICIgIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkFwbGlrYXNpRGV0ZWtzaVBsYXQuamFyIiBzaXplPSI0NDU2NDciIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjaGFybS1nbGlzdGVuLTQuNC4xLmphciIgc2l6ZT0iMTA0MDc4NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9wZW5jdi00MDAuamFyIiBzaXplPSI0NjI3NTEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iQXBsaWthc2lEZXRla3NpUGxhdCIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImFwbGlrYXNpZGV0ZWtzaXBsYXQuQXBsaWthc2lEZXRla3NpUGxhdCIgIG5hbWU9IkFwbGlrYXNpRGV0ZWtzaVBsYXQiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.library.path="C:\opencv\build\java\x64" '
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedaplikasideteksiplat);
+</script>
+
+</head><body>
+<h2>Test page for <b>AplikasiDeteksiPlat</b></h2>
+  <b>Webstart:</b> <a href='AplikasiDeteksiPlat.jnlp' onclick="return launchApplication('AplikasiDeteksiPlat.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

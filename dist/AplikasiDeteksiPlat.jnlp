@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AplikasiDeteksiPlat.jnlp">
+  <information>
+    <title>AplikasiDeteksiPlat</title>
+    <vendor>ARDI</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="C:\opencv\build\java\x64" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AplikasiDeteksiPlat.jar" size="445647" download="eager" />
+    <jar href="lib\charm-glisten-4.4.1.jar" size="1040787" download="eager" />
+    <jar href="lib\opencv-400.jar" size="462751" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AplikasiDeteksiPlat" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="aplikasideteksiplat.AplikasiDeteksiPlat"  name="AplikasiDeteksiPlat" />
+  <update check="always"/>
+</jnlp>
